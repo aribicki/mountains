@@ -19,7 +19,7 @@ SyntaxError: Unexpected token o
 
 
 
-
+// from book
 function filter(array, test) {
   var passed = [];
   for (var i = 0; i < array.length; i++) {
@@ -29,10 +29,10 @@ function filter(array, test) {
     return passed;
     }
     
-    
-    
+   /* 
+    // What i want it to do. Take todays time and if lastrebuilt + rebuilt time is less than now it needs to be rebuilt.
     //86400000 = 1 day
-    
+    */
     print(JSON.stringify(filter(moto, function(item) {
       return (((new Date(item.year)).getTime()) + (item.rebuild * 86400000) < (new Date().getTime())) ;
       })));
