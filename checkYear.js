@@ -5,7 +5,7 @@
 */
 
 load('moto.js');
-var moto = (MOTO_FILE);
+var moto = JSON(MOTO_FILE);
 
 
 
