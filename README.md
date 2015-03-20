@@ -5,6 +5,6 @@
 
 
 <pre> d8 printData.js          works correctly and shows the table 
- d8 checkYear.js          (I have an error when trying to parse table, i commented it in for help) I checked stack overflow but  I didnt understand what they meant. This is the one that suppose to print the expired motorcycles. I sent you a more discriptive email) </pre> 
+ d8 checkYear.js          (I have an error when trying to parse table, i commented it in for help) I checked stack overflow but  I didnt understand what they meant. This is the one that suppose to print the expired motorcycles. I sent you a more discriptive email)  Im going to give REGEXP Golf a try. </pre> 
  
  
