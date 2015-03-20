@@ -6,7 +6,9 @@
 
 load('moto.js');
 var moto = JSON.stringify(MOTO_FILE);
-
+/* I have alot of questions about this which I will send you an email. After many many hours of errors
+and checking stackoverflow, I am still a little confused. At first i had it set to JSON.parse() 
+but I kept receiving and error about an unexspected token 0 (object, Object).
 
 
 
@@ -27,5 +29,5 @@ function filter(array, test) {
     
     
     print(JSON.stringify(filter(moto, function(item) {
-      return (((new Date(item.year)).getTime()) + (item.rebuild * 86400000) < (new Date().getTime())) ;
+      return (((new Date(item.year)).getTime()) + (item.rebuild * 86400000) > (new Date().getTime())) ;
       })));
