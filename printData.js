@@ -16,4 +16,4 @@ function dataTable(data) {
   return [headers].concat(body);
 }
 
-print(drawTable(dataTable(MOTO)));
+print(drawTable(dataTable(MOTO_FILE)));
