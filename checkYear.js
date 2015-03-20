@@ -8,7 +8,11 @@ load('moto.js');
 var moto = JSON.parse(MOTO_FILE);
 /* I have alot of questions about this which I will send you an email. After many many hours of errors
 and checking stackoverflow, I am still a little confused. At first i had it set to JSON.parse() 
-but I kept receiving and error about an unexspected token 0 (object, Object). 
+but I kept receiving and error about an unexspected token 0 [object, Object]. 
+SyntaxError: Unexpected token o
+    at Object.parse (native)
+    at checkYear.js:8:17
+
 */
 
 
