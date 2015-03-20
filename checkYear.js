@@ -34,5 +34,5 @@ function filter(array, test) {
     //86400000 = 1 day
     */
     print(JSON.stringify(filter(moto, function(item) {
-      return (((new Date(item.year)).getTime()) + (item.rebuild * 86400000) < (new Date().getTime())) ;
+      return (((new Date(item.lastrebuilt)).getTime()) + (item.rebuild * 86400000) < (new Date().getTime())) ;
       })));
