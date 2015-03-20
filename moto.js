@@ -3,7 +3,7 @@
 // 2/27/2015
 // data for mountains repository for hw to show table
 
-var MOTO = [
+var MOTO_FILE = [
   {name: "HD Heritage Classic", year: 1/1/1992, rebuilt: 150},
   {name: "Honda CR", year: 1/1/1997, rebuilt: 40},
   {name: "DR-Z L", year: 1/1/2005, rebuilt: 200},
